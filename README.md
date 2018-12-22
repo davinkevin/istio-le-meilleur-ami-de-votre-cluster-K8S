@@ -54,7 +54,23 @@ Summary:
     * New objects available... more YAML files !
     * VirtualServices & Destination Rules
     * Service Entry & Gateway
-
+* **Connect and Control**
+    * New pattern of deployment
+        * What was in K8S (Ingress|Service|Deployment|ReplicaSet|Pods)
+        * What Istio add to this ❤️
+    * Canary Deployment
+        * Headers (routing & more)
+        * https://youtu.be/pi-ABBZ1AIw?t=1184
+    * Traffic mirroring
+        * Follow the evolution without users on it
+        * https://youtu.be/pi-ABBZ1AIw?t=1458
+    * Blue/Green Deployment
+        * Managing multi version in production
+        * https://youtu.be/pi-ABBZ1AIw?t=1795
+* **Observability**
+    * Graphana
+    * Zipkin
+    * Jaeger & Open-Tracing
 * **Security**
     * Security as a service
     * mTLS
