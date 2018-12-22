@@ -24,8 +24,51 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section data-background="images/00_intro/istio-boat.jpg" class="00_intro">
+					<div>Istio ⛵️</div>
+					<div>Le meilleur ami de votre cluster K8S ❤️</div>
+				</section>
+				<section class="01_our_system_are_evolving">
+					<section data-background="images/01_our_system_are_evolving/intro.jpg">
+						<span>Our world is changing</span>
+					</section>
+					<section data-background="images/01_our_system_are_evolving/monolith.jpg">
+						<span class="fragment">"do-all-the-thing" app</span>
+					</section>
+					<section data-background="images/01_our_system_are_evolving/whale.jpg">
+						&nbsp;
+					</section>
+					<section data-background-color="#00a0df">
+						<img src="images/01_our_system_are_evolving/docker.png" alt="docker">
+					</section>
+					<section data-background="images/01_our_system_are_evolving/break_rock.jpg">
+						&nbsp;
+					</section>
+					<section data-background-color="white">
+						<div><img src="images/01_our_system_are_evolving/netflix.png" alt="netflix" style="height: 8vh;"></div>
+						<div><img src="images/01_our_system_are_evolving/netflix_microservices.jpg" style="height: 50vh;" alt="ms"></div>
+					</section>
+					<section data-background-color="white">
+						<div><img src="images/01_our_system_are_evolving/amazon.png" alt="amazon" style="height: 8vh;"></div>
+						<div><img src="images/01_our_system_are_evolving/amazon_microservices.png" style="height: 50vh;" alt="ms"></div>
+					</section>
+					<section>
+						<span>Handle this in prod is hard 😰</span>
+					</section>
+					<section>
+						<img src="images/01_our_system_are_evolving/kubernetes.png" alt="kubernetes">
+						<span>as main service orchestrator 🚀</span>
+					</section>
+					<section>
+						<div>which solves some problems...</div>
+						<div class="fragment">but not all !</div>
+					</section>
+					<section data-background-color="#486AAD">
+						<div>Istio</div>
+						<img src="images/01_our_system_are_evolving/istio.png" alt="istio" style="height: 50vh;">
+					</section>
+
+				</section>
 			</div>
 		</div>
 
@@ -37,6 +80,7 @@
 			// - https://github.com/hakimel/reveal.js#configuration
 			// - https://github.com/hakimel/reveal.js#dependencies
 			Reveal.initialize({
+				history: true,
 				dependencies: [
 					{ src: 'plugin/markdown/marked.js' },
 					{ src: 'plugin/markdown/markdown.js' },
