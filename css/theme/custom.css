@@ -1,0 +1,45 @@
+.reveal section img {
+  background: none;
+  border: none;
+  box-shadow: none; }
+
+.reveal section .spin {
+  animation: spin 2s linear infinite; }
+
+@-moz-keyframes spin {
+  100% {
+    -moz-transform: rotate(-360deg); } }
+
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(-360deg); } }
+
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(-360deg);
+    transform: rotate(-360deg); } }
+
+.reveal section a:hover img {
+  box-shadow: none;
+  filter: drop-shadow(1px 1px 5px #aaa);
+  background: none;
+  border: none; }
+
+.reveal #introduction {
+  top: 70% !important;
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end; }
+
+.reveal #who_am_i #where_i_m_working .logo_toulouse {
+  height: 2ch;
+  margin: -5px 0; }
+
+#footer-left {
+  font-weight: 400;
+  font-size: 24px;
+  position: absolute;
+  margin: 16px;
+  bottom: 0;
+  left: 0; }

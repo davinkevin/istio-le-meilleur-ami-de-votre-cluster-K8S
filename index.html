@@ -8,6 +8,7 @@
 
 		<link rel="stylesheet" href="css/reveal.css">
 		<link rel="stylesheet" href="css/theme/black.css">
+		<link rel="stylesheet" href="css/theme/custom.css">
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -24,26 +25,24 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section data-background="images/00_intro/istio-boat.jpg" class="00_intro">
-					<div>Istio ⛵️</div>
-					<div>Le meilleur ami de votre cluster K8S ❤️</div>
+
+				<section id="introduction" data-background="images/00_intro/istio-boat.jpg">
+						<div>Istio ⛵️</div>
+						<div>Le meilleur ami de votre cluster K8S ❤️</div>
 				</section>
-				<section class="01_our_system_are_evolving">
+
+				<section id="our_system_are_evolving">
 					<section data-background="images/01_our_system_are_evolving/intro.jpg">
 						<span>Our world is changing</span>
 					</section>
 					<section data-background="images/01_our_system_are_evolving/monolith.jpg">
 						<span class="fragment">"do-all-the-thing" app</span>
 					</section>
-					<section data-background="images/01_our_system_are_evolving/whale.jpg">
-						&nbsp;
-					</section>
+					<section data-background="images/01_our_system_are_evolving/whale.jpg">&nbsp;</section>
 					<section data-background-color="#00a0df">
 						<img src="images/01_our_system_are_evolving/docker.png" alt="docker">
 					</section>
-					<section data-background="images/01_our_system_are_evolving/break_rock.jpg">
-						&nbsp;
-					</section>
+					<section data-background="images/01_our_system_are_evolving/break_rock.jpg">&nbsp;</section>
 					<section data-background-color="white">
 						<div><img src="images/01_our_system_are_evolving/netflix.png" alt="netflix" style="height: 8vh;"></div>
 						<div><img src="images/01_our_system_are_evolving/netflix_microservices.jpg" style="height: 50vh;" alt="ms"></div>
@@ -55,9 +54,9 @@
 					<section>
 						<span>Handle this in prod is hard 😰</span>
 					</section>
-					<section>
-						<img src="images/01_our_system_are_evolving/kubernetes.png" alt="kubernetes">
-						<span>as main service orchestrator 🚀</span>
+					<section data-background-color="#326DE2">
+						<img src="images/01_our_system_are_evolving/kubernetes.png" alt="kubernetes" class="kubernetes" />
+						<div id="test">Service Orchestrator 🚀</div>
 					</section>
 					<section>
 						<div>which solves some problems...</div>
@@ -69,6 +68,7 @@
 					</section>
 
 				</section>
+
 			</div>
 		</div>
 
