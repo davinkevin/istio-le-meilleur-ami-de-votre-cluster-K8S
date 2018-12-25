@@ -75,7 +75,12 @@ Summary:
     * Security as a service
     * mTLS
     * JWT/OIDC + definitions
-
 * **Envoy**
     * Supports many load-balancing algorithm
     * Fine tuning of retries and budget > https://istio.io/docs/concepts/traffic-management/#fine-tuning
+* On GKE with ❤️!
+    * Command line : 
+
+```shell
+gcloud beta container --project "istio-meilleur-ami-de-k8s" clusters create "istio-demo" --zone "europe-west1-b" --no-enable-basic-auth --cluster-version "1.11.5-gke.5" --machine-type "n1-standard-4" --image-type "COS" --disk-type "pd-ssd" --disk-size "100" --metadata disable-legacy-endpoints=true --scopes "https://www.googleapis.com/auth/devstorage.read_only","https://www.googleapis.com/auth/logging.write","https://www.googleapis.com/auth/monitoring","https://www.googleapis.com/auth/servicecontrol","https://www.googleapis.com/auth/service.management.readonly","https://www.googleapis.com/auth/trace.append" --preemptible --num-nodes "4" --enable-stackdriver-kubernetes --no-enable-ip-alias --network "projects/istio-meilleur-ami-de-k8s/global/networks/default" --subnetwork "projects/istio-meilleur-ami-de-k8s/regions/europe-west1/subnetworks/default" --enable-network-policy --enable-master-authorized-networks --addons HorizontalPodAutoscaling,HttpLoadBalancing,Istio --istio-config auth=NONE --enable-autoupgrade --enable-autorepair
+```
