@@ -40,14 +40,14 @@ Summary:
     * Service Mesh
         * Description of Service Mesh
             * Additional layer between Infrastructure and Services 
-    * Data Plane
     * Control Plane
         * Pilot
         * Mixer
         * Citadel
         * Galley
-    * Envoy
-        * auto-injection of envoy
+    * Data Plane
+        * Envoy
+            * auto-injection of envoy
 * **K8S and Istio**
     * Responsibility of each one
     * Dev & Ops POV (vern diagram between K8S and Istio responsibility)
