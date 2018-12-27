@@ -73,6 +73,12 @@
 .reveal #istio_origin .release .link {
   font-size: medium; }
 
+.reveal #goal .themes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center; }
+
 #footer-left {
   font-weight: 400;
   font-size: 24px;

@@ -92,8 +92,15 @@
         font-size: medium;
       }
     }
+  }
 
-
+  #goal {
+    .themes {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+    }
   }
 
 }
