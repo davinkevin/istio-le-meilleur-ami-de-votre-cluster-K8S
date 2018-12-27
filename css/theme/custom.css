@@ -51,6 +51,28 @@
   .reveal #presentation #opensource .projects img {
     height: 10vh; }
 
+.reveal #istio_origin .istio img {
+  max-height: 50%;
+  max-width: 50%; }
+
+.reveal #istio_origin .partnership {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; }
+  .reveal #istio_origin .partnership img {
+    max-height: 50%;
+    max-width: 25%; }
+
+.reveal #istio_origin .release .twitter-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+
+.reveal #istio_origin .release .link {
+  font-size: medium; }
+
 #footer-left {
   font-weight: 400;
   font-size: 24px;
